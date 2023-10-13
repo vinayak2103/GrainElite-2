@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This page contains all the things I am learning how to create as I learn HTML.">
+    <title>GrainElite</title>
+    <link rel="stylesheet" href="FirmPage.css">
+</head>
+
+<body>
+    <div class="main-nav-container">
+        <div class="vertical">
+            <div class="container">
+                <button class="btn" onClick="logout({logoutParams:{returnTo: window.location.origin}})">Log Out</button>
+                <h3>Welcome,<br /><span>{user.email}</span></h3>
+            </div>
+            <div class="navbar">
+                <ul>
+
+                    <a href="C:/Users/admin/Desktop/HCI_GrainElite/AddFirm/firmPage.html">
+                        <li>
+                            Add Firm
+                        </li>
+                    </a>
+
+                    <a href="C:/Users/admin/Desktop/HCI_GrainElite/ContractNote/contractNote.html">
+                        <li>
+                            Contract Note
+                        </li>
+                    </a>
+
+                    <a href="C:/Users/admin/Desktop/HCI_GrainElite/ItemMaster/itemMaster.html">
+                        <li>
+                            Item Master
+                        </li>
+                    </a>
+
+                    <a href="C:/Users/admin/Desktop/HCI_GrainElite/BrokerageBill/brokerageBill.html">
+                        <li>
+                            Brokerage Bill
+                        </li>
+                    </a>
+
+                    <a href="C:/Users/admin/Desktop/HCI_GrainElite/Settings/settings.html">
+                        <li>
+                            Settings
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="page-container">
+        <h2 class="head">New Firm</h2>
+        <hr />
+        <form class="form1"><br><br><br>
+            <label class="form-ele">Party Name:<input type="text" /></label><br><br>
+            <label class="form-ele">Owner Name:<input type="text" /></label><br><br>
+            <label class="form-ele">Place:<input type="text" /></label><br><br>
+            <label class="form-ele">Address:<input type="text" /></label><br><br>
+            <label class="form-ele">State:<input type="text" /></label><br><br>
+            <label class="form-ele">Country:<input type="text" /></label><br><br>
+            <label class="form-ele">Mobile No:<input type="tel" /></label><br><br>
+            <label class="form-ele">Brokerage Bill on Company:<input type="text" /></label><br><br>
+            <label class="form-ele">PAN No:<input type="text" /></label><br><br>
+            <label class="form-ele">GSTIN No:<input type="text" /></label><br>
+        </form>
+        <button class="btn submit-btn">submit</button>
+    </div>
+</body>
+
+</html>
