@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This page contains all the things I am learning how to create as I learn HTML.">
+    <title>GrainElite</title>
+    <link rel="stylesheet" href="ItemMaster.css">
+</head>
+
+<body>
+    <div class="main-nav-container">
+        <div class="vertical">
+            <div class="container">
+                <button class="btn" onClick="logout({logoutParams:{returnTo: window.location.origin}})">Log Out</button>
+                <h3>Welcome,<br /><span>{user.email}</span></h3>
+            </div>
+            <div class="navbar">
+                <ul>
+
+                    <a href="C:/Users/admin/Desktop/HCI_GrainElite/AddFirm/firmPage.html">
+                        <li>
+                            Add Firm
+                        </li>
+                    </a>
+
+                    <a href="C:/Users/admin/Desktop/HCI_GrainElite/ContractNote/contractNote.html">
+                        <li>
+                            Contract Note
+                        </li>
+                    </a>
+
+                    <a href="C:/Users/admin/Desktop/HCI_GrainElite/ItemMaster/itemMaster.html">
+                        <li>
+                            Item Master
+                        </li>
+                    </a>
+
+                    <a href="C:/Users/admin/Desktop/HCI_GrainElite/BrokerageBill/brokerageBill.html">
+                        <li>
+                            Brokerage Bill
+                        </li>
+                    </a>
+
+                    <a href="C:/Users/admin/Desktop/HCI_GrainElite/Settings/settings.html">
+                        <li>
+                            Settings
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="page-container">
+        <h2 class="head">Item Master</h2>
+        <hr>
+        <div class="input-container" style="font-size: 22px;">
+            <label for="entry_no">Item Name:</label>
+            <input type="number" id="entry_no" name="entry_no" required />
+            <label for="item" style="margin-left: 20px">S. no:</label>
+            <input type="text" id="item" name="item" required /><br /><br /><br />
+            <label for="item" style="margin-left: 20px">Group:</label>
+            <input type="text" id="item" name="item" required /><br /><br /><br />
+            <label for="item" style="margin-left: 20px">Brokerage on alternate unit 1 <input type="text"
+                    placeholder="none" style="width:80px"></label>
+            <label htmlFor=""> = </label><input type="text"
+                style="width:80px"><label htmlFor=""> x Weight </label><br><br>
+            <button class="btn add-btn">Add Item</button>      
+        </div>    
+        <hr class="hr1">
+    </div>
+</body>
+
+</html>

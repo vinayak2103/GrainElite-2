@@ -1,0 +1,131 @@
+body {
+    background-image: url('assets/bg_img.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.container {
+    padding: 23px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    border: 2px solid rgb(173, 166, 166);
+    border-radius: 20px;
+    background-color: rgba(246, 248, 250, 0.444);
+}
+h3{
+    font-size: 20px;
+    text-align: center;
+}
+.vertical {
+    border-left: 3px dotted black;
+    height: 95%;
+    position: absolute;
+    right: 80px;
+    top: 20px;
+    width: 320px;
+}
+
+ul {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+li {
+    font-size: 23px;
+    font-weight: 700;
+    width: 200px;
+    background-color: rgba(246, 248, 250, 0.566);
+    border: 2px solid rgba(205, 177, 50, 0.704);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 25px 0 25px 0;
+    list-style-type: none;
+    cursor: pointer;
+    text-transform: capitalize;
+    color: rgb(52, 47, 47);
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar ul a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    /* border: 2px solid #333;
+    border-radius: 10px; */
+    /* padding: 20px 20px;
+    margin: 40px 150px 40px 0; */
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn {
+    font-size: 24px;
+    padding: 20px;
+    color: rgba(23, 95, 28, 0.677);
+    background: linear-gradient(to right bottom, rgba(160, 236, 144, 0.811), rgba(211, 201, 13, 0.844));
+    margin-top: 20px;
+    width: 200px;
+    border-radius: 50px;
+    border: 3px solid rgb(45, 112, 26);
+    cursor: pointer;
+}
+.btn:hover {
+    color: rgba(50, 82, 18, 0.6);
+    background: linear-gradient(to right bottom, rgba(81, 223, 52, 0.811), rgba(216, 166, 66, 0.844));
+    border: 3px solid rgba(50, 82, 18, 0.2);
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+input{
+    margin-left: 10px;
+    height: 30px;
+    width: 250px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+hr{
+    width: 80%;
+    border: 1.5px solid rgba(205, 177, 50, 0.704);
+}
+.head{
+    font-family: ubuntu;
+}
+
+.page-container {
+    width: 75%;
+    height: 90%;
+    border: 3px solid rgba(205, 177, 50, 0.704);
+    border-radius: 20px;
+    background-color: rgba(246, 248, 250, 0.666);
+    position: absolute;
+    left: 20px;
+    bottom: 40px;
+    margin-left: 20px;
+}
+
+.input-container{
+    position: absolute;
+    left: 130px;
+    top: 170px;
+}
+
+.add-btn{
+    position: relative;
+    left: 530px;
+}
+
+.hr1{
+    position: absolute;
+    top: 70%;
+    margin-left: 150px;
+}
