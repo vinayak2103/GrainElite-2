@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This page contains all the things I am learning how to create as I learn HTML.">
+    <title>GrainElite</title>
+    <link rel="stylesheet" href="contractNote.css">
+</head>
+
+<body>
+    <div class="main-nav-container">
+        <div class="vertical">
+            <div class="container">
+                <button class="btn" onClick="logout({logoutParams:{returnTo: window.location.origin}})">Log Out</button>
+                <h3>Welcome,<br /><span>{user.email}</span></h3>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <a href="C:/Users/admin/Desktop/HCI_GrainElite/AddFirm/firmPage.html">
+                        <li>
+                            Add Firm
+                        </li>
+                    </a>
+
+                    <a href="C:/Users/admin/Desktop/HCI_GrainElite/ContractNote/contractNote.html">
+                        <li>
+                            Contract Note
+                        </li>
+                    </a>
+
+                    <a href="C:/Users/admin/Desktop/HCI_GrainElite/ItemMaster/itemMaster.html">
+                        <li>
+                            Item Master
+                        </li>
+                    </a>
+
+                    <a href="C:/Users/admin/Desktop/HCI_GrainElite/BrokerageBill/brokerageBill.html">
+                        <li>
+                            Brokerage Bill
+                        </li>
+                    </a>
+
+                    <a href="C:/Users/admin/Desktop/HCI_GrainElite/Settings/settings.html">
+                        <li>
+                            Settings
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+        <div class="page-container">
+            <h2 class="head">Contract Note</h2>
+            <hr />
+            <form style="font-size: 30px">
+                <div class="form-group">
+                    <label for="entry_no">Entry No:</label>
+                    <input type="number" id="entry_no" name="entry_no" required>
+                    <label for="date" style="margin-left:70px">Date:</label>
+                    <input type="date" id="date" name="date" required>
+                    <label for="item" style="margin-left:70px">Item Name:</label>
+                    <input type="text" id="item" name="item" required>
+                </div><br><br><br>
+                <div class="form-group">
+                    <label for="seller">Seller Name:</label>
+                    <input type="text" id="seller" name="seller" required />
+                    <label for="buyer" style="margin-left:200px">Buyer Name:</label>
+                    <input type="text" id="buyer" name="buyer" required />
+                </div><br><br><br>
+                <div class="form-group">
+                    <label for="qty">Quantity:</label>
+                    <input type="number" id="qty" name="qty" required />
+                    <label for="rate" style="margin-left:245px">Rate:</label>
+                    <input type="number" id="rate" name="rate" required />
+                </div><br><br><br>
+                <div class="form-group">
+                    <label for="s_brokerage">Seller Brokerage:</label>
+                    <input type="number" id="s_brokerage" name="s_brokerage" required />
+                    <label for="b_brokerage" style="margin-left:150px">Buyer Brokerage:</label>
+                    <input type="number" id="b_brokerage" name="b_brokerage" required />
+                </div><br><br><br>
+                <div class="form-group">
+                    <label for="remark">Remark:</label>
+                    <input type="text" name="remark" style="width:700px;height:50px">
+                </div><br><br><br>
+                <div class="buttons">
+                    <button class="btn" style="margin: 0 20px 0 20px">Reset</button>
+                    <button class="btn" style="margin: 0 30px 0 30px">Cancel</button>
+                    <button class="btn" style="margin: 0 20px 0 20px">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>    
+</body>
+
+</html>
